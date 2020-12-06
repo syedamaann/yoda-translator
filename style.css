@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,800&display=swap');
+
+:root {
+    --primary-color: #DB2777;
+    --off-white: #D1FAE5;
+    --dark-gray: #10B981;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 1px
+}
+
+hr {
+    margin: 5rem 0rem;
+}
+
+/** spaces **/
+
+.margin-md {
+    margin: 1rem;
+}
+
+/** container **/
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-two {
+    padding: 0rem;
+}
+
+.container-center-two {
+    max-width: 600px;
+    margin: auto;
+}
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/** links **/
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    /* margin-top: 5rem;
+    margin-bottom: 1rem; */
+}
+
+.link-primary {
+    background-color: #F87171
+    ;
+    border-radius: 1rem;
+    color: white;
+    font-weight: bold;
+    border: 1px solid var(--primary-color)
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0rem;
+    border: 1px solid var(--primary-color);
+    font-weight: bolder;
+}
+
+.link-secondary-two {
+    color: var(--dark-gray);
+    border-radius: 0rem;
+    border: 1px solid var(--dark-gray);
+    font-weight: bolder;
+}
+
+/** look into BEM naming convention for CSS **/
+
+/** lists **/
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/** navigation **/
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/** header **/
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+
+}
+
+.hero-two {
+    padding: 2rem;
+    padding-top: 5rem;
+    
+
+}
+
+
+.hero .hero-img {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-img-two {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 0rem;
+    color: var(--dark-gray);
+}
+
+.para {
+    text-align: center;
+}
+
+.hero-two .hero-heading-two {
+    text-align: center;
+    border-radius: 0rem;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+    border: 1px solid var(--primary-color);
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+.hero-two .hero-heading-two .heading-inverted-two {
+    color: var(--primary-color);
+}
+
+/** sections **/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+/** footers **/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+textarea {
+    width: 60%;
+    height: 12vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#output-div {
+    border: 1px solid blue;
+    height: 13vh;
+    width: 60%;
+    margin: 1rem;
+    padding: 1rem;
+}
+#translate-button {
+    color: rgb(255, 255, 255);
+text-decoration: none;
+padding: 0.5rem 1.2rem;
+background: rgb(0, 195, 255);
+border-radius: 0.3rem;
+
+transition: all 0.5s ease 0s;
+}
